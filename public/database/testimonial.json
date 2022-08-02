@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "username": "Smith",
+    "image": "../assets/testimonial/1.jpg",
+    "rating": "3.5",
+    "review": "Product as ordered"
+  },
+  {
+    "id": 2,
+    "username": "Morgan",
+    "image": "../assets/testimonial/2.jpg",
+    "rating": "5",
+    "review": "Product as ordered, fast delivery, good service and fast response."
+  },
+  {
+    "id": 3,
+    "username": "Angelica",
+    "image": "../assets/testimonial/3.jpg",
+    "rating": "4.5",
+    "review": "Fast delivery, good service and fast response."
+  },
+  {
+    "id": 4,
+    "username": "Lisa",
+    "image": "../assets/testimonial/4.jpg",
+    "rating": "5",
+    "review": "Product as ordered, fast delivery, good service and fast response."
+  },
+  {
+    "id": 5,
+    "username": "Lois",
+    "image": "../assets/testimonial/5.jpg",
+    "rating": "3",
+    "review": "Good service."
+  },
+  {
+    "id": 6,
+    "username": "Tommy",
+    "image": "../assets/testimonial/6.jpg",
+    "rating": "4",
+    "review": "Product as ordered, fast delivery, and fast response."
+  }
+]
