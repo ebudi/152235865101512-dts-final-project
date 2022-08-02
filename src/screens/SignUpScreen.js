@@ -11,7 +11,6 @@ const SignUpScreen = () => {
     const [userInput, setUserInput] = useState({
         name: '',
         email: '',
-    //    image: '',
         password: '',
     })
     const { signUpUser } = useAuth()
@@ -20,7 +19,6 @@ const SignUpScreen = () => {
     const Inputs = [
         { id: 1, type: "text", placeholder: "Name", value: `${userInput.name}`, name: 'name' },
         { id: 2, type: "email", placeholder: "Email", value: `${userInput.email}`, name: 'email' },
-    //    { id: 3, type: "text", placeholder: "Profile Picture Link", value: `${userInput.image}`, name: 'image' },
         { id: 3, type: "password", placeholder: "Password", value: `${userInput.password}`, name: 'password' },
     ]
 
@@ -38,7 +36,7 @@ const SignUpScreen = () => {
     //handle submit form 
     const handleSubmit = async (e) => {
         e.preventDefault();
-        await signUpUser(userInput.email, userInput.password, userInput.name, userInput.image)
+        await signUpUser(userInput.email, userInput.password, userInput.name)
     }
 
     return (
@@ -73,7 +71,7 @@ const SignUpScreen = () => {
                     </div>
                 </Bounce>
 
-                {/* imagee  */}
+                {/* image  */}
                 <Bounce right>
                     <div className="hidden md:flex lg:flex flex-col justify-center items-center w-full h-screen">
                         <img className="w-4/4 mx-auto" src="../../assets/signup.png" alt="signup" />

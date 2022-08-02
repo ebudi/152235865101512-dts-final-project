@@ -43,7 +43,7 @@ const ProductDetailScreen = () => {
                                             <span className="text-gray-600">({product.reviews} reviews)</span>
                                         </div>
                                         {/* description  */}
-                                        <p className=" text-gray-400 my-4">{product.description}{product.description}{product.description}{product.description}</p>
+                                        <p className=" text-gray-400 my-4">{product.description}</p>
                                     </div>
                                     <div className="flex items-center justify-between py-6">
                                         <h2 className="text-3xl text-black font-bold poppins">${product.price}</h2>
